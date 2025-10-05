@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
     
 from clean_data_app import strav_data
-from dashborad import dash_bord
+from streamlit_app.dashboard import dash_bord
 
 # web interface.
 def main():
